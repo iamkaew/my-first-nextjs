@@ -1,0 +1,47 @@
+/* ตัวอย่าง */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+a:hover {
+  background-color: #f0f0f0;
+}
+
+nav {
+  background-color: #333; /* Set background color */
+  overflow: hidden; /* Prevent overflow */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullets */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left; /* Make items float left */
+}
+
+nav ul li a {
+  display: block; /* Make links fill the entire list item */
+  color: white; /* Set text color */
+  text-align: center; /* Center text */
+  padding: 14px 16px; /* Add padding */
+  text-decoration: none; /* Remove underlines */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Add background color on hover */
+  color: black; /* Change text color on hover */
+}
